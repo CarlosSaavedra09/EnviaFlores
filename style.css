@@ -1,0 +1,52 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  background: linear-gradient(120deg,#3498db,#8e44ad)
+}
+
+header h2{
+  /* margin: auto; */
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  padding: 1% 0;
+}
+
+.center{ 
+  background-color: #8e44ad;
+}
+
+.tams{
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.catalogo{
+  margin: 10px 10%;
+  display: flex;
+}
+
+.articulo{
+  display: inline-block;
+  width: 30%;
+  padding: 0 2%;
+}
+
+.articulo img{
+  max-height:100%; 
+  max-width:100%;
+  transition: 1s ease;
+}
+
+.articulo img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
